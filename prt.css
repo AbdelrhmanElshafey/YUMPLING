@@ -1,0 +1,308 @@
+/* start article */
+
+.carousel-inner img
+{
+    height: 500px;
+    width: auto;
+}
+
+form .hover
+{
+   color: rgb(133, 133, 13);
+   border:  rgb(133, 133, 13) !important;
+
+}
+.box-section2
+{
+    background: rgb(133, 133, 13);
+    
+
+}
+.box-section2 .box-img img
+{
+    width: 450px;
+    height: 600px;
+    padding:50px;
+}
+
+.box-section2 .box-imgl img
+{
+    width: 450px;
+    height: 550px;
+    padding:50px;
+}
+
+.box-section2 .atc
+{
+    font: italic  32px "Blackadder ITC",Arial, Helvetica, sans-serif;
+    color: rgb(73, 69, 69);
+
+}
+
+.box-section2 .atc h5
+{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    font-size: 42px;
+    font-weight: bold;
+
+}
+
+.box-section2 .atc p
+{
+    text-align: center;
+    margin: 20px;
+    margin-right: 40px;
+    margin-left: 40px;
+
+}
+
+/* end article */
+
+/* start section */
+
+.food-trends
+{
+    padding: 100px 0;
+}
+.container
+{
+    width: 1170px;
+    margin: auto;
+}
+.food-box
+{
+    margin: 80px 0;
+    margin-left: 200px;
+    text-align: center;
+}
+
+.title-style h1
+{
+    padding: 40px 0;
+    text-align: center;
+}
+
+.title-style
+{
+    padding: 0 auto 80px;
+    height: 120px;
+    width: 80%;
+    max-width: 700px;
+    background: #fff;
+    position: relative;
+    box-shadow: 0 4px 5px 0 rgba(0, 0,50, 0.5);
+}
+
+.title-style::after
+{
+    content: "";
+    height: 100px;
+    width: 200px;
+    background-color:  rgb(133, 133, 13);
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    z-index: -1;
+}
+
+.title-style::before
+{
+    content: "";
+    height: 100px;
+    width: 200px;
+    background-color:  rgb(133, 133, 13);
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    z-index: -1;
+}
+
+.text-center
+{
+    margin-top: 40px;
+    font-size: 25px;
+}
+
+.trending-img
+{
+    position: relative;
+    margin-bottom: 15px;
+    
+}
+
+.trending-img img
+{
+    width: 100%;
+    border: rgb(133, 133, 13) solid;   
+}
+
+.btn-buy
+{
+    width: 150px;
+    padding: 10px 0;
+    outline: none !important;
+    border: 0;
+    border-radius: 2px;
+    position: absolute;
+    background: rgb(133, 133, 13);
+    color: rgb(73, 69, 69);
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%,0);
+    transition: .6s;
+    opacity: 0;
+    z-index: 1;
+}
+
+.trending-img:hover .btn-buy
+{
+    transform: translate(-50%,50%);
+    bottom: 50%;
+    opacity: 1;
+}
+
+.overly
+{
+    height: 100%;
+    width: 100%;
+    background: #333;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transition: .5s;
+}
+
+.trending-img:hover .overly
+{
+    opacity: .5;
+    height: 100%;
+}
+
+/*----offer-----*/
+
+.offer
+{
+    background-image: url("../photo/background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.row {margin: initial !important;}
+
+.subscribe
+{
+    max-width: 500px;
+    margin-top: 80px;
+    padding: 60px;
+    background: #ffffff8c;
+    margin-bottom: 20px;
+}
+
+.subscribe a
+{
+    width: 100px;
+    display: block;
+    color: #fff !important;
+    background:  rgb(133, 133, 13);
+    text-decoration: none !important;
+    padding: 5px;
+    text-align: center;
+}
+
+.offer img
+{
+    width: 300px;
+    height: 400px;
+    margin: -100px;
+    margin-top: 150px;
+}
+
+/*----- food-blog -----*/
+
+.food-blog .title-style
+{
+    margin: 250px 0 80px 350px;
+}
+
+.blog-img
+{
+    margin-top: 20px;
+    height: 300px;
+    width: 250px;
+    display: inline-block;
+}
+.blog-img img
+{
+    width: 100%;
+    height: 100%;
+    border: rgb(133, 133, 13) solid;
+}
+
+.food-blog h5
+{
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/*----- footer ----*/
+
+.footer
+{
+    margin-top: 150px;
+    background: #f5f6fc;
+}
+
+.insta-img{margin: 50px auto;}
+
+.insta-img img
+{
+    width: 120px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.footer h5{
+    margin-bottom: 50px;
+}
+
+.footer h5::before
+{
+    content: "";
+    width: 70px;
+    height: 5px;
+    background: rgb(133, 133, 13);
+    top: 80px;
+    position: absolute;
+}
+
+.footer-icons
+{
+    text-align: right;
+}
+
+.footer-icons .fab
+{
+    margin: 0 10px auto;
+    font-size: 20px;
+    color:  rgb(133, 133, 13);
+    cursor: pointer;
+}
+
+@media only screen and (max-width:900px)
+{
+    .title-style h1{font-size: 25px;}
+
+    .offer img
+    {
+        margin-top: 20px !important;
+        margin-bottom: 0 !important;
+    }
+
+    .footer-icons{text-align: center;}
+
+    .copyright{text-align: center;}
+}
+
+
